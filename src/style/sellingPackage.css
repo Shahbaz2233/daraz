@@ -1,0 +1,109 @@
+/* sellingPackage.css */
+
+.container {
+    margin-top: 1rem;
+  }
+  
+  .main-Div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .selling-card {
+    width: 14rem;
+    margin: 20px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .selling-card-image-wrapper {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #d7d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: rgb(105 104 104 / 2%);
+    box-shadow: 0px 1px 7px rgb(175 175 175 / 25%);
+  }
+  
+  .selling-card-image {
+    width: 100%;
+    /* object-fit: cover; */
+  }
+  
+  .selling-card-details {
+    margin: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .selling-card-title {
+    font-weight: bold;
+  }
+  
+  /* .selling-card-price {
+    margin-top: 10px;
+  } */
+  
+  
+  @media (max-width: 768px){
+    .selling-card-image-wrapper {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #d7d3d3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      background: rgb(105 104 104 / 2%);
+      box-shadow: 0px 1px 7px rgb(175 175 175 / 25%);
+    }
+    .selling-card {
+      width: 10rem;
+      margin: 20px 3px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    
+  }
+  @media (max-width: 320px){
+    .selling-card-image-wrapper {
+      margin: auto;
+      width: 180px;
+      height: 180px;
+      border: 1px solid #d7d3d3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      background: rgb(105 104 104 / 2%);
+      box-shadow: 0px 1px 7px rgb(175 175 175 / 25%);
+    }
+    .selling-card {
+      width: 15rem;
+      margin: 20px 3px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    
+  }

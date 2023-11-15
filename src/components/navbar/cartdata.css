@@ -1,0 +1,16 @@
+.main{
+
+    width: 400px;
+    height: 90%;
+    position:fixed;
+    z-index: 99;
+    /* border-top: 10px solid yellow; */
+    padding: 30px;
+    right: 0;
+    /* left: 0%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 80px;
+    /* color: white; */
+    background-color: #a48528;
+    overflow-y: "auto"
+}

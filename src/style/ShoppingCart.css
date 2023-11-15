@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.Shopping40{
+    background-color: #947421 !important;
+}
+.Thead40{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(64, 65, 65, 0.851);
+    border-radius: 5px;
+}
+.Trcolor40{
+    background-color: #2e2d2d ;
+}
+
+
+
+@media(max-width:425px){
+    .Trcolor40{
+        display: none;
+    }
+    .Tble40{
+        border-radius: none !important;
+        /* box-shadow: 0px 0px 7px 1px white; */
+    }
+    .Thead40{
+     display: grid;
+    }
+    .TbleImage40{
+        width: 382px;
+    }
+}
+@media(max-width: 390px){ 
+    .TbleImage40 {
+        width: 335px;
+    }
+}
+@media(max-width: 320px){ 
+    .TbleImage40 {
+        width: 279px;
+    }
+}

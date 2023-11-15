@@ -1,0 +1,110 @@
+.mdcontainer{
+    box-shadow: 0px 1px 69px -30px aliceblue; 
+}
+
+
+.homeheading{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    padding-left: 80px;
+    color: #f9ad48;
+    font-weight: 500;
+}
+.SectionIcon{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+.CategoryDivTilte{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2521;
+    margin-bottom: 50px;
+}
+/* .mainCards{
+    margin: 0px 100px;
+} */
+.CategoryText{
+    color: white;
+    margin-top: revert;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+ .womenCardimage{
+    background-color:#2c2521;
+    color: white;
+    box-shadow: 0px 0px 6px 0px #fff3cd;
+}
+.womenCardimage img{
+    object-fit: cover;
+    height: 250px;
+    background: no-repeat;
+}
+.CardBodyTilte{
+    text-align: left;
+    padding: 5px;
+}
+
+.CardsImage{
+    height: 350px;
+    object-fit: cover;
+    width: 25%;
+}
+
+.text-start1{
+    display: flex;
+    text-align: left;
+    margin-top: 5px ;
+}
+.card-text{
+    color: #f9ad48;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+.Price{
+    color: #ce8e3ab8;
+    font-weight:500;
+}
+
+.EndDiv{
+    background-color: #2c2521;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1024px){ 
+    .text-start1{
+        margin-top:0px;
+    }
+    .card-text{
+        font-size: 11px;
+    }
+    }
+
+
+
+@media (max-width:768px){ 
+.Women-Card{
+    width: 50%;
+}
+}
+
+
+
+@media (max-width:500px){ 
+    .Women-Card{
+        width: 100%;
+    }
+    }

@@ -1,0 +1,164 @@
+.big {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .h {
+    margin-bottom: 0;
+  }
+  
+  .ligt {
+    color: #111111;
+  }
+  
+  .new {
+    color: #0b0b0b;
+  }
+  
+  .fa {
+    color: rgb(166, 166, 60);
+  }
+  
+  .text {
+    color: #0a0a0a;
+  }
+  
+  .color-container {
+    margin-top: 20px;
+  }
+  
+  .title {
+    margin-bottom: 5px;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .active {
+    border: 2px solid #db6777;
+  }
+  
+  .number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .minus,
+  .plus {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  
+  .inpstyle {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px;
+    border-bottom: 1px solid #0d0d0d;
+    color: #100f0f;
+  }
+  
+  .watch-name {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-top: 20px;
+  }
+  
+  .rounded {
+    border-radius: 4px;
+  }
+  
+  .border-0 {
+    border: none;
+  }
+  
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  
+  .ml-2 {
+    margin-left: 2rem;
+  }
+  
+  .my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .card {
+    border-radius: 4px;
+  }
+  
+  .Content {
+    position: relative;
+  }
+
+  
+  .MinSlideContent {
+    gap: 1rem;
+  }
+  
+  .float-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .m-2 {
+    margin: 0.5rem;
+  }
+  
+  .card-title {
+    color: #000;
+  }
+  
+  .card-text {
+    color: #000;
+  }
+  
+  .recommended-products{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #d7d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: rgb(105 104 104 / 2%);
+    box-shadow: 0px 1px 7px rgb(175 175 175 / 25%);
+  }

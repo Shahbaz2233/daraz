@@ -1,0 +1,42 @@
+.container1 {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    /* background-color: #f0f0f0; */
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #ffffff;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #ffffff;
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  }
+    
