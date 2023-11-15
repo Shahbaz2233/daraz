@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daraz/static/css/main.e922d2ff.css",
-    "main.js": "/daraz/static/js/main.a7f7547c.js",
+    "main.js": "/daraz/static/js/main.236c426c.js",
     "static/media/images02.png": "/daraz/static/media/images02.19a59d8793bdc6e34f07.png",
     "static/media/image04.png": "/daraz/static/media/image04.d08738a3e1cc7c44c7f5.png",
     "static/media/populorproduct.jpg": "/daraz/static/media/populorproduct.98a96839075fce566100.jpg",
@@ -13,10 +13,10 @@
     "static/media/friend4.jpg": "/daraz/static/media/friend4.a3a3995d2e45522c18f9.jpg",
     "index.html": "/daraz/index.html",
     "main.e922d2ff.css.map": "/daraz/static/css/main.e922d2ff.css.map",
-    "main.a7f7547c.js.map": "/daraz/static/js/main.a7f7547c.js.map"
+    "main.236c426c.js.map": "/daraz/static/js/main.236c426c.js.map"
   },
   "entrypoints": [
     "static/css/main.e922d2ff.css",
-    "static/js/main.a7f7547c.js"
+    "static/js/main.236c426c.js"
   ]
 }
